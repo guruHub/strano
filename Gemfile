@@ -25,6 +25,7 @@ gem 'faraday_middleware'
 gem 'capistrano', '~> 2.13'
 gem 'capistrano_colors'
 gem 'capistrano_rsync_with_remote_cache'
+gem 'capifony', :require => 'capistrano'
 gem 'grit'
 gem 'dotiw'
 gem 'inherited_resources'
@@ -64,3 +65,5 @@ group :test do
   gem 'webmock'
   gem "fakefs", :require => "fakefs/safe"
 end
+
+gem 'unicorn'
